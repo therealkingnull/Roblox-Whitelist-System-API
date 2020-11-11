@@ -1,0 +1,33 @@
+{
+    "name": "Roblox",
+    "version": "1.0.0",
+    "description": "Used to verify",
+    "main": "index.js",
+    "engines": {
+      "node": "15.0.1"
+    },
+    "scripts": {
+      "test": "node ./test.js",
+      "start": "node ./",
+      "dev": "nodemon ./",
+      "deploy": "gcloud config set project official-joke-api && gcloud app deploy"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/therealkingnull/Halloween-API.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/therealkingnull/Halloween-API/issues"
+    },
+    "homepage": "https://github.com/therealkingnull/Halloween-API",
+    "dependencies": {
+      "express": "^4.16.4",
+      "limiting-middleware": "^1.3.2"
+    },
+    "devDependencies": {
+      "nodemon": "^1.18.9"
+    }
+  }
