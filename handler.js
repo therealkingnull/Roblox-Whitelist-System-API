@@ -17,7 +17,7 @@ const randomN = (dataArray, n) => {
   };
 
   const wlUser = (user, n) => {
-    return Object.values(data)(data => data.users.userName === user);
+    return randomN(data.filter(data => data.users.userName === user), n);
   };
 
   module.exports = { wlUser, randomN, data }
