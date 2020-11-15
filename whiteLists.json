@@ -1,19 +1,10 @@
-{
-    "message": "sucess",
-    "game": "api test",
-    "active": true,
-    "users": [
-      {
+[
+    {
         "userName": "lxgh1lxy",
         "userId": "388701737"
-      },
-      {
-        "userName": "hello",
-        "userId": "1234"
-      },
-      {
-        "userName": "hi_there",
+    },
+    {
+        "userName": "hi",
         "userId": "4567"
-      }
-    ]
-  }
+    }
+]
