@@ -1,3 +1,10 @@
-{
-    "users":[{"user": "lxgh1lxy", "userid": "388701737"}, {"user": "hello", "userid": "456"}]
-}
+[
+    {
+    "userName": "lxgh1lxy",
+    "userId": "388701737"
+    },
+    {
+        "userName": "hello",
+        "userId": "456"
+    }
+]

@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const wlUser = require('./whiteLists.json');
+const { wlUser, randomN, data } = require('./handler');
 
 const app = express();
 
@@ -11,8 +11,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-    res.json(wlUser)
+app.get('/:user', (req, res) => {
+  res.json(wlUser(req.params.user, 1));
 });
 
 const PORT = process.env.PORT || 3005;
